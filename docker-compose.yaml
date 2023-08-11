@@ -72,6 +72,7 @@ services:
     volumes:
       - ./jdownloader-2:/config:rw
       - ${STORAGE}/torrents/complete:/output:rw
+    restart: unless-stopped
 
   # jackett:
   #   image: lscr.io/linuxserver/jackett:latest
