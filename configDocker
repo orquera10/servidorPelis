@@ -1,0 +1,1 @@
+docker run -d --init --restart=always -v /media/disco-ntfs/downloads -v /media/disco-ntfs/config/jdownloader --name jdownloader -u $(id -u) -p 3129:3129 -e MYJD_USER=orquera10@gmail.com -e MYJD_PASSWORD=tuxx6393 -e MYJD_DEVICE_NAME=rk1 jaymoulin/jdownloader
